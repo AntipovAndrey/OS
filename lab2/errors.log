@@ -1,0 +1,248 @@
+update-alternatives 2017-09-03 15:04:18: run with --quiet --install /usr/bin/www-browser www-browser /usr/bin/links 68 --slave /usr/share/man/man1/www-browser.1.gz www-browser.1.gz /usr/share/man/man1/links.1.gz
+update-alternatives 2017-09-03 15:04:18: link group www-browser updated to point to /usr/bin/links
+update-alternatives 2017-09-06 20:09:54: run with --install /bin/zsh zsh /bin/zsh5 51 --slave /usr/bin/zsh zsh-usrbin /bin/zsh5
+update-alternatives 2017-09-06 20:09:54: link group zsh updated to point to /bin/zsh5
+update-alternatives 2017-09-06 20:09:55: run with --install /bin/rzsh rzsh /bin/zsh5 51 --slave /usr/share/man/man1/rzsh.1.gz rzsh.1.gz /usr/share/man/man1/zsh.1.gz
+update-alternatives 2017-09-06 20:09:55: link group rzsh updated to point to /bin/zsh5
+update-alternatives 2017-09-06 20:09:55: run with --remove zsh /bin/zsh4
+update-alternatives 2017-09-06 20:09:55: run with --remove rzsh /bin/zsh4
+update-alternatives 2017-09-10 12:55:49: run with --install /usr/bin/x-www-browser x-www-browser /usr/bin/chromium-browser 40
+update-alternatives 2017-09-10 12:55:49: run with --install /usr/bin/gnome-www-browser gnome-www-browser /usr/bin/chromium-browser 40
+update-alternatives 2017-09-10 12:55:49: run with --install /usr/share/ghostscript/current ghostscript-current /usr/share/ghostscript/9.18 918
+update-alternatives 2017-09-13 16:45:46: run with --quiet --remove mozilla-flashplugin /usr/lib/flashplugin-installer/libflashplayer.so
+update-alternatives 2017-09-13 16:45:46: link group mozilla-flashplugin fully removed
+update-alternatives 2017-09-13 16:46:11: run with --quiet --install /usr/lib/mozilla/plugins/flashplugin-alternative.so mozilla-flashplugin /usr/lib/flashplugin-installer/libflashplayer.so 50
+update-alternatives 2017-09-13 16:46:11: link group mozilla-flashplugin updated to point to /usr/lib/flashplugin-installer/libflashplayer.so
+update-alternatives 2017-09-13 16:49:19: run with --quiet --install /usr/lib/mozilla/plugins/flashplugin-alternative.so mozilla-flashplugin /usr/lib/flashplugin-installer/libflashplayer.so 50
+update-alternatives 2017-08-09 16:05:25: run with --quiet --remove mozilla-flashplugin /usr/lib/flashplugin-installer/libflashplayer.so
+update-alternatives 2017-08-09 16:05:25: link group mozilla-flashplugin fully removed
+update-alternatives 2017-08-09 16:06:38: run with --quiet --install /usr/lib/mozilla/plugins/flashplugin-alternative.so mozilla-flashplugin /usr/lib/flashplugin-installer/libflashplayer.so 50
+update-alternatives 2017-08-09 16:06:38: link group mozilla-flashplugin updated to point to /usr/lib/flashplugin-installer/libflashplayer.so
+update-alternatives 2017-08-10 14:27:00: run with --quiet --install /usr/lib/mozilla/plugins/flashplugin-alternative.so mozilla-flashplugin /usr/lib/flashplugin-installer/libflashplayer.so 50
+update-alternatives 2017-08-12 21:13:10: run with --install /usr/bin/x-www-browser x-www-browser /usr/bin/chromium-browser 40
+update-alternatives 2017-08-12 21:13:10: run with --install /usr/bin/gnome-www-browser gnome-www-browser /usr/bin/chromium-browser 40
+update-alternatives 2017-08-17 22:40:28: run with --install /usr/bin/gnome-www-browser gnome-www-browser /usr/bin/firefox 40
+update-alternatives 2017-08-17 22:40:28: run with --install /usr/bin/x-www-browser x-www-browser /usr/bin/firefox 40
+update-alternatives 2017-08-20 18:32:10: run with --install /usr/share/plymouth/themes/text.plymouth text.plymouth /usr/share/plymouth/themes/ubuntu-gnome-text/ubuntu-gnome-text.plymouth 60
+update-alternatives 2017-08-20 18:32:10: run with --install /usr/share/plymouth/themes/text.plymouth text.plymouth /usr/share/plymouth/themes/ubuntu-text/ubuntu-text.plymouth 50
+update-alternatives 2017-08-20 18:32:34: run with --install /usr/share/plymouth/themes/text.plymouth text.plymouth /usr/share/plymouth/themes/ubuntu-gnome-text/ubuntu-gnome-text.plymouth 60
+update-alternatives 2017-08-20 18:32:34: run with --install /usr/share/plymouth/themes/text.plymouth text.plymouth /usr/share/plymouth/themes/ubuntu-text/ubuntu-text.plymouth 50
+update-alternatives 2017-08-20 18:35:48: run with --install /usr/bin/ControlPanel ControlPanel /usr/lib/jvm/java-8-oracle/jre/bin/ControlPanel 1081
+update-alternatives 2017-08-20 18:35:48: run with --install /usr/bin/java java /usr/lib/jvm/java-8-oracle/jre/bin/java 1081 --slave /usr/share/man/man1/java.1.gz java.1.gz /usr/lib/jvm/java-8-oracle/man/man1/java.1.gz
+update-alternatives 2017-08-20 18:35:48: run with --install /usr/bin/javaws javaws /usr/lib/jvm/java-8-oracle/jre/bin/javaws 1081 --slave /usr/share/man/man1/javaws.1.gz javaws.1.gz /usr/lib/jvm/java-8-oracle/man/man1/javaws.1.gz
+update-alternatives 2017-08-20 18:35:48: run with --install /usr/bin/jcontrol jcontrol /usr/lib/jvm/java-8-oracle/jre/bin/jcontrol 1081
+update-alternatives 2017-08-20 18:35:48: run with --install /usr/bin/jjs jjs /usr/lib/jvm/java-8-oracle/jre/bin/jjs 1081 --slave /usr/share/man/man1/jjs.1.gz jjs.1.gz /usr/lib/jvm/java-8-oracle/man/man1/jjs.1.gz
+update-alternatives 2017-08-20 18:35:48: run with --install /usr/bin/keytool keytool /usr/lib/jvm/java-8-oracle/jre/bin/keytool 1081 --slave /usr/share/man/man1/keytool.1.gz keytool.1.gz /usr/lib/jvm/java-8-oracle/man/man1/keytool.1.gz
+update-alternatives 2017-08-20 18:35:48: run with --install /usr/bin/orbd orbd /usr/lib/jvm/java-8-oracle/jre/bin/orbd 1081 --slave /usr/share/man/man1/orbd.1.gz orbd.1.gz /usr/lib/jvm/java-8-oracle/man/man1/orbd.1.gz
+update-alternatives 2017-08-20 18:35:48: run with --install /usr/bin/pack200 pack200 /usr/lib/jvm/java-8-oracle/jre/bin/pack200 1081 --slave /usr/share/man/man1/pack200.1.gz pack200.1.gz /usr/lib/jvm/java-8-oracle/man/man1/pack200.1.gz
+update-alternatives 2017-08-20 18:35:48: run with --install /usr/bin/policytool policytool /usr/lib/jvm/java-8-oracle/jre/bin/policytool 1081 --slave /usr/share/man/man1/policytool.1.gz policytool.1.gz /usr/lib/jvm/java-8-oracle/man/man1/policytool.1.gz
+update-alternatives 2017-08-20 18:35:48: run with --install /usr/bin/rmid rmid /usr/lib/jvm/java-8-oracle/jre/bin/rmid 1081 --slave /usr/share/man/man1/rmid.1.gz rmid.1.gz /usr/lib/jvm/java-8-oracle/man/man1/rmid.1.gz
+update-alternatives 2017-08-20 18:35:48: run with --install /usr/bin/rmiregistry rmiregistry /usr/lib/jvm/java-8-oracle/jre/bin/rmiregistry 1081 --slave /usr/share/man/man1/rmiregistry.1.gz rmiregistry.1.gz /usr/lib/jvm/java-8-oracle/man/man1/rmiregistry.1.gz
+update-alternatives 2017-08-20 18:35:48: run with --install /usr/bin/servertool servertool /usr/lib/jvm/java-8-oracle/jre/bin/servertool 1081 --slave /usr/share/man/man1/servertool.1.gz servertool.1.gz /usr/lib/jvm/java-8-oracle/man/man1/servertool.1.gz
+update-alternatives 2017-08-20 18:35:48: run with --install /usr/bin/tnameserv tnameserv /usr/lib/jvm/java-8-oracle/jre/bin/tnameserv 1081 --slave /usr/share/man/man1/tnameserv.1.gz tnameserv.1.gz /usr/lib/jvm/java-8-oracle/man/man1/tnameserv.1.gz
+update-alternatives 2017-08-20 18:35:48: run with --install /usr/bin/unpack200 unpack200 /usr/lib/jvm/java-8-oracle/jre/bin/unpack200 1081 --slave /usr/share/man/man1/unpack200.1.gz unpack200.1.gz /usr/lib/jvm/java-8-oracle/man/man1/unpack200.1.gz
+update-alternatives 2017-08-20 18:35:48: run with --install /usr/bin/jexec jexec /usr/lib/jvm/java-8-oracle/jre/lib/jexec 1081 --slave /usr/share/binfmts/jar jexec-binfmt /usr/lib/jvm/java-8-oracle/jre/lib/jar.binfmt
+update-alternatives 2017-08-20 18:35:48: run with --install /usr/bin/appletviewer appletviewer /usr/lib/jvm/java-8-oracle/bin/appletviewer 1081 --slave /usr/share/man/man1/appletviewer.1.gz appletviewer.1.gz /usr/lib/jvm/java-8-oracle/man/man1/appletviewer.1.gz
+update-alternatives 2017-08-20 18:35:48: run with --install /usr/bin/extcheck extcheck /usr/lib/jvm/java-8-oracle/bin/extcheck 1081 --slave /usr/share/man/man1/extcheck.1.gz extcheck.1.gz /usr/lib/jvm/java-8-oracle/man/man1/extcheck.1.gz
+update-alternatives 2017-08-20 18:35:48: run with --install /usr/bin/idlj idlj /usr/lib/jvm/java-8-oracle/bin/idlj 1081 --slave /usr/share/man/man1/idlj.1.gz idlj.1.gz /usr/lib/jvm/java-8-oracle/man/man1/idlj.1.gz
+update-alternatives 2017-08-20 18:35:49: run with --install /usr/bin/jar jar /usr/lib/jvm/java-8-oracle/bin/jar 1081 --slave /usr/share/man/man1/jar.1.gz jar.1.gz /usr/lib/jvm/java-8-oracle/man/man1/jar.1.gz
+update-alternatives 2017-08-20 18:35:49: run with --install /usr/bin/jarsigner jarsigner /usr/lib/jvm/java-8-oracle/bin/jarsigner 1081 --slave /usr/share/man/man1/jarsigner.1.gz jarsigner.1.gz /usr/lib/jvm/java-8-oracle/man/man1/jarsigner.1.gz
+update-alternatives 2017-08-20 18:35:49: run with --install /usr/bin/javac javac /usr/lib/jvm/java-8-oracle/bin/javac 1081 --slave /usr/share/man/man1/javac.1.gz javac.1.gz /usr/lib/jvm/java-8-oracle/man/man1/javac.1.gz
+update-alternatives 2017-08-20 18:35:49: run with --install /usr/bin/javadoc javadoc /usr/lib/jvm/java-8-oracle/bin/javadoc 1081 --slave /usr/share/man/man1/javadoc.1.gz javadoc.1.gz /usr/lib/jvm/java-8-oracle/man/man1/javadoc.1.gz
+update-alternatives 2017-08-20 18:35:49: run with --install /usr/bin/javafxpackager javafxpackager /usr/lib/jvm/java-8-oracle/bin/javafxpackager 1081 --slave /usr/share/man/man1/javafxpackager.1.gz javafxpackager.1.gz /usr/lib/jvm/java-8-oracle/man/man1/javafxpackager.1.gz
+update-alternatives 2017-08-20 18:35:49: run with --install /usr/bin/javah javah /usr/lib/jvm/java-8-oracle/bin/javah 1081 --slave /usr/share/man/man1/javah.1.gz javah.1.gz /usr/lib/jvm/java-8-oracle/man/man1/javah.1.gz
+update-alternatives 2017-08-20 18:35:49: run with --install /usr/bin/javap javap /usr/lib/jvm/java-8-oracle/bin/javap 1081 --slave /usr/share/man/man1/javap.1.gz javap.1.gz /usr/lib/jvm/java-8-oracle/man/man1/javap.1.gz
+update-alternatives 2017-08-20 18:35:49: run with --install /usr/bin/javapackager javapackager /usr/lib/jvm/java-8-oracle/bin/javapackager 1081 --slave /usr/share/man/man1/javapackager.1.gz javapackager.1.gz /usr/lib/jvm/java-8-oracle/man/man1/javapackager.1.gz
+update-alternatives 2017-08-20 18:35:49: run with --install /usr/bin/jcmd jcmd /usr/lib/jvm/java-8-oracle/bin/jcmd 1081 --slave /usr/share/man/man1/jcmd.1.gz jcmd.1.gz /usr/lib/jvm/java-8-oracle/man/man1/jcmd.1.gz
+update-alternatives 2017-08-20 18:35:49: run with --install /usr/bin/jconsole jconsole /usr/lib/jvm/java-8-oracle/bin/jconsole 1081 --slave /usr/share/man/man1/jconsole.1.gz jconsole.1.gz /usr/lib/jvm/java-8-oracle/man/man1/jconsole.1.gz
+update-alternatives 2017-08-20 18:35:49: run with --install /usr/bin/jdb jdb /usr/lib/jvm/java-8-oracle/bin/jdb 1081 --slave /usr/share/man/man1/jdb.1.gz jdb.1.gz /usr/lib/jvm/java-8-oracle/man/man1/jdb.1.gz
+update-alternatives 2017-08-20 18:35:49: run with --install /usr/bin/jdeps jdeps /usr/lib/jvm/java-8-oracle/bin/jdeps 1081 --slave /usr/share/man/man1/jdeps.1.gz jdeps.1.gz /usr/lib/jvm/java-8-oracle/man/man1/jdeps.1.gz
+update-alternatives 2017-08-20 18:35:49: run with --install /usr/bin/jhat jhat /usr/lib/jvm/java-8-oracle/bin/jhat 1081 --slave /usr/share/man/man1/jhat.1.gz jhat.1.gz /usr/lib/jvm/java-8-oracle/man/man1/jhat.1.gz
+update-alternatives 2017-08-20 18:35:49: run with --install /usr/bin/jinfo jinfo /usr/lib/jvm/java-8-oracle/bin/jinfo 1081 --slave /usr/share/man/man1/jinfo.1.gz jinfo.1.gz /usr/lib/jvm/java-8-oracle/man/man1/jinfo.1.gz
+update-alternatives 2017-08-20 18:35:49: run with --install /usr/bin/jmap jmap /usr/lib/jvm/java-8-oracle/bin/jmap 1081 --slave /usr/share/man/man1/jmap.1.gz jmap.1.gz /usr/lib/jvm/java-8-oracle/man/man1/jmap.1.gz
+update-alternatives 2017-08-20 18:35:49: run with --install /usr/bin/jmc jmc /usr/lib/jvm/java-8-oracle/bin/jmc 1081 --slave /usr/share/man/man1/jmc.1.gz jmc.1.gz /usr/lib/jvm/java-8-oracle/man/man1/jmc.1.gz
+update-alternatives 2017-08-20 18:35:49: run with --install /usr/bin/jps jps /usr/lib/jvm/java-8-oracle/bin/jps 1081 --slave /usr/share/man/man1/jps.1.gz jps.1.gz /usr/lib/jvm/java-8-oracle/man/man1/jps.1.gz
+update-alternatives 2017-08-20 18:35:49: run with --install /usr/bin/jrunscript jrunscript /usr/lib/jvm/java-8-oracle/bin/jrunscript 1081 --slave /usr/share/man/man1/jrunscript.1.gz jrunscript.1.gz /usr/lib/jvm/java-8-oracle/man/man1/jrunscript.1.gz
+update-alternatives 2017-08-20 18:35:49: run with --install /usr/bin/jsadebugd jsadebugd /usr/lib/jvm/java-8-oracle/bin/jsadebugd 1081 --slave /usr/share/man/man1/jsadebugd.1.gz jsadebugd.1.gz /usr/lib/jvm/java-8-oracle/man/man1/jsadebugd.1.gz
+update-alternatives 2017-08-20 18:35:49: run with --install /usr/bin/jstack jstack /usr/lib/jvm/java-8-oracle/bin/jstack 1081 --slave /usr/share/man/man1/jstack.1.gz jstack.1.gz /usr/lib/jvm/java-8-oracle/man/man1/jstack.1.gz
+update-alternatives 2017-08-20 18:35:49: run with --install /usr/bin/jstat jstat /usr/lib/jvm/java-8-oracle/bin/jstat 1081 --slave /usr/share/man/man1/jstat.1.gz jstat.1.gz /usr/lib/jvm/java-8-oracle/man/man1/jstat.1.gz
+update-alternatives 2017-08-20 18:35:49: run with --install /usr/bin/jstatd jstatd /usr/lib/jvm/java-8-oracle/bin/jstatd 1081 --slave /usr/share/man/man1/jstatd.1.gz jstatd.1.gz /usr/lib/jvm/java-8-oracle/man/man1/jstatd.1.gz
+update-alternatives 2017-08-20 18:35:49: run with --install /usr/bin/jvisualvm jvisualvm /usr/lib/jvm/java-8-oracle/bin/jvisualvm 1081 --slave /usr/share/man/man1/jvisualvm.1.gz jvisualvm.1.gz /usr/lib/jvm/java-8-oracle/man/man1/jvisualvm.1.gz
+update-alternatives 2017-08-20 18:35:49: run with --install /usr/bin/native2ascii native2ascii /usr/lib/jvm/java-8-oracle/bin/native2ascii 1081 --slave /usr/share/man/man1/native2ascii.1.gz native2ascii.1.gz /usr/lib/jvm/java-8-oracle/man/man1/native2ascii.1.gz
+update-alternatives 2017-08-20 18:35:50: run with --install /usr/bin/rmic rmic /usr/lib/jvm/java-8-oracle/bin/rmic 1081 --slave /usr/share/man/man1/rmic.1.gz rmic.1.gz /usr/lib/jvm/java-8-oracle/man/man1/rmic.1.gz
+update-alternatives 2017-08-20 18:35:50: run with --install /usr/bin/schemagen schemagen /usr/lib/jvm/java-8-oracle/bin/schemagen 1081 --slave /usr/share/man/man1/schemagen.1.gz schemagen.1.gz /usr/lib/jvm/java-8-oracle/man/man1/schemagen.1.gz
+update-alternatives 2017-08-20 18:35:50: run with --install /usr/bin/serialver serialver /usr/lib/jvm/java-8-oracle/bin/serialver 1081 --slave /usr/share/man/man1/serialver.1.gz serialver.1.gz /usr/lib/jvm/java-8-oracle/man/man1/serialver.1.gz
+update-alternatives 2017-08-20 18:35:50: run with --install /usr/bin/wsgen wsgen /usr/lib/jvm/java-8-oracle/bin/wsgen 1081 --slave /usr/share/man/man1/wsgen.1.gz wsgen.1.gz /usr/lib/jvm/java-8-oracle/man/man1/wsgen.1.gz
+update-alternatives 2017-08-20 18:35:50: run with --install /usr/bin/wsimport wsimport /usr/lib/jvm/java-8-oracle/bin/wsimport 1081 --slave /usr/share/man/man1/wsimport.1.gz wsimport.1.gz /usr/lib/jvm/java-8-oracle/man/man1/wsimport.1.gz
+update-alternatives 2017-08-20 18:35:50: run with --install /usr/bin/xjc xjc /usr/lib/jvm/java-8-oracle/bin/xjc 1081 --slave /usr/share/man/man1/xjc.1.gz xjc.1.gz /usr/lib/jvm/java-8-oracle/man/man1/xjc.1.gz
+update-alternatives 2017-08-20 18:35:50: run with --install /usr/lib/mozilla/plugins/libjavaplugin.so mozilla-javaplugin.so /usr/lib/jvm/java-8-oracle/jre/lib/amd64/libnpjp2.so 1081
+update-alternatives 2017-08-20 18:37:25: run with --install /usr/bin/x-www-browser x-www-browser /usr/bin/google-chrome-stable 200
+update-alternatives 2017-08-20 18:37:25: run with --install /usr/bin/gnome-www-browser gnome-www-browser /usr/bin/google-chrome-stable 200
+update-alternatives 2017-08-20 18:37:25: run with --install /usr/bin/google-chrome google-chrome /usr/bin/google-chrome-stable 200
+update-alternatives 2017-08-20 18:37:49: run with --install /usr/bin/x-www-browser x-www-browser /usr/bin/opera 120 --slave /usr/share/man/man1/x-www-browser.1.gz x-www-browser.1.gz /usr/share/man/man1/opera.1.gz
+update-alternatives 2017-08-20 18:37:49: run with --install /usr/bin/gnome-www-browser gnome-www-browser /usr/bin/opera 120 --slave /usr/share/man/man1/gnome-www-browser.1.gz gnome-www-browser.1.gz /usr/share/man/man1/opera.1.gz
+update-alternatives 2017-08-20 18:37:50: run with --quiet --auto appletviewer
+update-alternatives 2017-08-20 18:37:50: status of link group /usr/bin/appletviewer set to auto
+update-alternatives 2017-08-20 18:37:50: run with --quiet --auto ControlPanel
+update-alternatives 2017-08-20 18:37:50: status of link group /usr/bin/ControlPanel set to auto
+update-alternatives 2017-08-20 18:37:50: run with --quiet --auto extcheck
+update-alternatives 2017-08-20 18:37:50: status of link group /usr/bin/extcheck set to auto
+update-alternatives 2017-08-20 18:37:50: run with --quiet --auto idlj
+update-alternatives 2017-08-20 18:37:50: status of link group /usr/bin/idlj set to auto
+update-alternatives 2017-08-20 18:37:50: run with --quiet --auto jar
+update-alternatives 2017-08-20 18:37:50: status of link group /usr/bin/jar set to auto
+update-alternatives 2017-08-20 18:37:50: run with --quiet --auto jarsigner
+update-alternatives 2017-08-20 18:37:50: status of link group /usr/bin/jarsigner set to auto
+update-alternatives 2017-08-20 18:37:50: run with --quiet --auto java
+update-alternatives 2017-08-20 18:37:50: status of link group /usr/bin/java set to auto
+update-alternatives 2017-08-20 18:37:50: run with --quiet --auto javac
+update-alternatives 2017-08-20 18:37:50: status of link group /usr/bin/javac set to auto
+update-alternatives 2017-08-20 18:37:50: run with --quiet --auto javadoc
+update-alternatives 2017-08-20 18:37:50: status of link group /usr/bin/javadoc set to auto
+update-alternatives 2017-08-20 18:37:50: run with --quiet --auto javafxpackager
+update-alternatives 2017-08-20 18:37:50: status of link group /usr/bin/javafxpackager set to auto
+update-alternatives 2017-08-20 18:37:50: run with --quiet --auto javah
+update-alternatives 2017-08-20 18:37:50: status of link group /usr/bin/javah set to auto
+update-alternatives 2017-08-20 18:37:50: run with --quiet --auto javap
+update-alternatives 2017-08-20 18:37:50: status of link group /usr/bin/javap set to auto
+update-alternatives 2017-08-20 18:37:50: run with --quiet --auto javapackager
+update-alternatives 2017-08-20 18:37:50: status of link group /usr/bin/javapackager set to auto
+update-alternatives 2017-08-20 18:37:50: run with --quiet --auto javaws
+update-alternatives 2017-08-20 18:37:50: status of link group /usr/bin/javaws set to auto
+update-alternatives 2017-08-20 18:37:50: run with --quiet --auto jcmd
+update-alternatives 2017-08-20 18:37:50: status of link group /usr/bin/jcmd set to auto
+update-alternatives 2017-08-20 18:37:50: run with --quiet --auto jconsole
+update-alternatives 2017-08-20 18:37:50: status of link group /usr/bin/jconsole set to auto
+update-alternatives 2017-08-20 18:37:50: run with --quiet --auto jcontrol
+update-alternatives 2017-08-20 18:37:50: status of link group /usr/bin/jcontrol set to auto
+update-alternatives 2017-08-20 18:37:51: run with --quiet --auto jdb
+update-alternatives 2017-08-20 18:37:51: status of link group /usr/bin/jdb set to auto
+update-alternatives 2017-08-20 18:37:51: run with --quiet --auto jdeps
+update-alternatives 2017-08-20 18:37:51: status of link group /usr/bin/jdeps set to auto
+update-alternatives 2017-08-20 18:37:51: run with --quiet --auto jexec
+update-alternatives 2017-08-20 18:37:51: status of link group /usr/bin/jexec set to auto
+update-alternatives 2017-08-20 18:37:51: run with --quiet --auto jhat
+update-alternatives 2017-08-20 18:37:51: status of link group /usr/bin/jhat set to auto
+update-alternatives 2017-08-20 18:37:51: run with --quiet --auto jinfo
+update-alternatives 2017-08-20 18:37:51: status of link group /usr/bin/jinfo set to auto
+update-alternatives 2017-08-20 18:37:51: run with --quiet --auto jjs
+update-alternatives 2017-08-20 18:37:51: status of link group /usr/bin/jjs set to auto
+update-alternatives 2017-08-20 18:37:51: run with --quiet --auto jmap
+update-alternatives 2017-08-20 18:37:51: status of link group /usr/bin/jmap set to auto
+update-alternatives 2017-08-20 18:37:51: run with --quiet --auto jmc
+update-alternatives 2017-08-20 18:37:51: status of link group /usr/bin/jmc set to auto
+update-alternatives 2017-08-20 18:37:51: run with --quiet --auto jps
+update-alternatives 2017-08-20 18:37:51: status of link group /usr/bin/jps set to auto
+update-alternatives 2017-08-20 18:37:51: run with --quiet --auto jrunscript
+update-alternatives 2017-08-20 18:37:51: status of link group /usr/bin/jrunscript set to auto
+update-alternatives 2017-08-20 18:37:51: run with --quiet --auto jsadebugd
+update-alternatives 2017-08-20 18:37:51: status of link group /usr/bin/jsadebugd set to auto
+update-alternatives 2017-08-20 18:37:51: run with --quiet --auto jstack
+update-alternatives 2017-08-20 18:37:51: status of link group /usr/bin/jstack set to auto
+update-alternatives 2017-08-20 18:37:51: run with --quiet --auto jstat
+update-alternatives 2017-08-20 18:37:51: status of link group /usr/bin/jstat set to auto
+update-alternatives 2017-08-20 18:37:51: run with --quiet --auto jstatd
+update-alternatives 2017-08-20 18:37:51: status of link group /usr/bin/jstatd set to auto
+update-alternatives 2017-08-20 18:37:51: run with --quiet --auto jvisualvm
+update-alternatives 2017-08-20 18:37:51: status of link group /usr/bin/jvisualvm set to auto
+update-alternatives 2017-08-20 18:37:51: run with --quiet --auto keytool
+update-alternatives 2017-08-20 18:37:51: status of link group /usr/bin/keytool set to auto
+update-alternatives 2017-08-20 18:37:51: run with --quiet --auto mozilla-javaplugin.so
+update-alternatives 2017-08-20 18:37:51: status of link group /usr/lib/mozilla/plugins/libjavaplugin.so set to auto
+update-alternatives 2017-08-20 18:37:51: run with --quiet --auto native2ascii
+update-alternatives 2017-08-20 18:37:51: status of link group /usr/bin/native2ascii set to auto
+update-alternatives 2017-08-20 18:37:51: run with --quiet --auto orbd
+update-alternatives 2017-08-20 18:37:51: status of link group /usr/bin/orbd set to auto
+update-alternatives 2017-08-20 18:37:51: run with --quiet --auto pack200
+update-alternatives 2017-08-20 18:37:51: status of link group /usr/bin/pack200 set to auto
+update-alternatives 2017-08-20 18:37:51: run with --quiet --auto policytool
+update-alternatives 2017-08-20 18:37:51: status of link group /usr/bin/policytool set to auto
+update-alternatives 2017-08-20 18:37:51: run with --quiet --auto rmic
+update-alternatives 2017-08-20 18:37:51: status of link group /usr/bin/rmic set to auto
+update-alternatives 2017-08-20 18:37:51: run with --quiet --auto rmid
+update-alternatives 2017-08-20 18:37:51: status of link group /usr/bin/rmid set to auto
+update-alternatives 2017-08-20 18:37:51: run with --quiet --auto rmiregistry
+update-alternatives 2017-08-20 18:37:51: status of link group /usr/bin/rmiregistry set to auto
+update-alternatives 2017-08-20 18:37:51: run with --quiet --auto schemagen
+update-alternatives 2017-08-20 18:37:51: status of link group /usr/bin/schemagen set to auto
+update-alternatives 2017-08-20 18:37:51: run with --quiet --auto serialver
+update-alternatives 2017-08-20 18:37:51: status of link group /usr/bin/serialver set to auto
+update-alternatives 2017-08-20 18:37:51: run with --quiet --auto servertool
+update-alternatives 2017-08-20 18:37:51: status of link group /usr/bin/servertool set to auto
+update-alternatives 2017-08-20 18:37:52: run with --quiet --auto tnameserv
+update-alternatives 2017-08-20 18:37:52: status of link group /usr/bin/tnameserv set to auto
+update-alternatives 2017-08-20 18:37:52: run with --quiet --auto unpack200
+update-alternatives 2017-08-20 18:37:52: status of link group /usr/bin/unpack200 set to auto
+update-alternatives 2017-08-20 18:37:52: run with --quiet --auto wsgen
+update-alternatives 2017-08-20 18:37:52: status of link group /usr/bin/wsgen set to auto
+update-alternatives 2017-08-20 18:37:52: run with --quiet --auto wsimport
+update-alternatives 2017-08-20 18:37:52: status of link group /usr/bin/wsimport set to auto
+update-alternatives 2017-08-20 18:37:52: run with --quiet --auto xjc
+update-alternatives 2017-08-20 18:37:52: status of link group /usr/bin/xjc set to auto
+update-alternatives 2017-08-20 18:37:52: run with --quiet --set appletviewer /usr/lib/jvm/java-8-oracle/bin/appletviewer
+update-alternatives 2017-08-20 18:37:52: status of link group /usr/bin/appletviewer set to manual
+update-alternatives 2017-08-20 18:37:52: run with --quiet --set extcheck /usr/lib/jvm/java-8-oracle/bin/extcheck
+update-alternatives 2017-08-20 18:37:52: status of link group /usr/bin/extcheck set to manual
+update-alternatives 2017-08-20 18:37:52: run with --quiet --set idlj /usr/lib/jvm/java-8-oracle/bin/idlj
+update-alternatives 2017-08-20 18:37:52: status of link group /usr/bin/idlj set to manual
+update-alternatives 2017-08-20 18:37:52: run with --quiet --set jarsigner /usr/lib/jvm/java-8-oracle/bin/jarsigner
+update-alternatives 2017-08-20 18:37:52: status of link group /usr/bin/jarsigner set to manual
+update-alternatives 2017-08-20 18:37:52: run with --quiet --set jar /usr/lib/jvm/java-8-oracle/bin/jar
+update-alternatives 2017-08-20 18:37:52: status of link group /usr/bin/jar set to manual
+update-alternatives 2017-08-20 18:37:52: run with --quiet --set javac /usr/lib/jvm/java-8-oracle/bin/javac
+update-alternatives 2017-08-20 18:37:52: status of link group /usr/bin/javac set to manual
+update-alternatives 2017-08-20 18:37:52: run with --quiet --set javadoc /usr/lib/jvm/java-8-oracle/bin/javadoc
+update-alternatives 2017-08-20 18:37:52: status of link group /usr/bin/javadoc set to manual
+update-alternatives 2017-08-20 18:37:52: run with --quiet --set javafxpackager /usr/lib/jvm/java-8-oracle/bin/javafxpackager
+update-alternatives 2017-08-20 18:37:52: status of link group /usr/bin/javafxpackager set to manual
+update-alternatives 2017-08-20 18:37:52: run with --quiet --set javah /usr/lib/jvm/java-8-oracle/bin/javah
+update-alternatives 2017-08-20 18:37:52: status of link group /usr/bin/javah set to manual
+update-alternatives 2017-08-20 18:37:52: run with --quiet --set javapackager /usr/lib/jvm/java-8-oracle/bin/javapackager
+update-alternatives 2017-08-20 18:37:52: status of link group /usr/bin/javapackager set to manual
+update-alternatives 2017-08-20 18:37:52: run with --quiet --set javap /usr/lib/jvm/java-8-oracle/bin/javap
+update-alternatives 2017-08-20 18:37:52: status of link group /usr/bin/javap set to manual
+update-alternatives 2017-08-20 18:37:52: run with --quiet --set jcmd /usr/lib/jvm/java-8-oracle/bin/jcmd
+update-alternatives 2017-08-20 18:37:52: status of link group /usr/bin/jcmd set to manual
+update-alternatives 2017-08-20 18:37:52: run with --quiet --set jconsole /usr/lib/jvm/java-8-oracle/bin/jconsole
+update-alternatives 2017-08-20 18:37:52: status of link group /usr/bin/jconsole set to manual
+update-alternatives 2017-08-20 18:37:52: run with --quiet --set jdb /usr/lib/jvm/java-8-oracle/bin/jdb
+update-alternatives 2017-08-20 18:37:52: status of link group /usr/bin/jdb set to manual
+update-alternatives 2017-08-20 18:37:52: run with --quiet --set jdeps /usr/lib/jvm/java-8-oracle/bin/jdeps
+update-alternatives 2017-08-20 18:37:52: status of link group /usr/bin/jdeps set to manual
+update-alternatives 2017-08-20 18:37:52: run with --quiet --set jhat /usr/lib/jvm/java-8-oracle/bin/jhat
+update-alternatives 2017-08-20 18:37:52: status of link group /usr/bin/jhat set to manual
+update-alternatives 2017-08-20 18:37:52: run with --quiet --set jinfo /usr/lib/jvm/java-8-oracle/bin/jinfo
+update-alternatives 2017-08-20 18:37:52: status of link group /usr/bin/jinfo set to manual
+update-alternatives 2017-08-20 18:37:52: run with --quiet --set jmap /usr/lib/jvm/java-8-oracle/bin/jmap
+update-alternatives 2017-08-20 18:37:52: status of link group /usr/bin/jmap set to manual
+update-alternatives 2017-08-20 18:37:52: run with --quiet --set jmc /usr/lib/jvm/java-8-oracle/bin/jmc
+update-alternatives 2017-08-20 18:37:52: status of link group /usr/bin/jmc set to manual
+update-alternatives 2017-08-20 18:37:52: run with --quiet --set jps /usr/lib/jvm/java-8-oracle/bin/jps
+update-alternatives 2017-08-20 18:37:52: status of link group /usr/bin/jps set to manual
+update-alternatives 2017-08-20 18:37:52: run with --quiet --set jrunscript /usr/lib/jvm/java-8-oracle/bin/jrunscript
+update-alternatives 2017-08-20 18:37:52: status of link group /usr/bin/jrunscript set to manual
+update-alternatives 2017-08-20 18:37:52: run with --quiet --set jsadebugd /usr/lib/jvm/java-8-oracle/bin/jsadebugd
+update-alternatives 2017-08-20 18:37:52: status of link group /usr/bin/jsadebugd set to manual
+update-alternatives 2017-08-20 18:37:53: run with --quiet --set jstack /usr/lib/jvm/java-8-oracle/bin/jstack
+update-alternatives 2017-08-20 18:37:53: status of link group /usr/bin/jstack set to manual
+update-alternatives 2017-08-20 18:37:53: run with --quiet --set jstatd /usr/lib/jvm/java-8-oracle/bin/jstatd
+update-alternatives 2017-08-20 18:37:53: status of link group /usr/bin/jstatd set to manual
+update-alternatives 2017-08-20 18:37:53: run with --quiet --set jstat /usr/lib/jvm/java-8-oracle/bin/jstat
+update-alternatives 2017-08-20 18:37:53: status of link group /usr/bin/jstat set to manual
+update-alternatives 2017-08-20 18:37:53: run with --quiet --set jvisualvm /usr/lib/jvm/java-8-oracle/bin/jvisualvm
+update-alternatives 2017-08-20 18:37:53: status of link group /usr/bin/jvisualvm set to manual
+update-alternatives 2017-08-20 18:37:53: run with --quiet --set native2ascii /usr/lib/jvm/java-8-oracle/bin/native2ascii
+update-alternatives 2017-08-20 18:37:53: status of link group /usr/bin/native2ascii set to manual
+update-alternatives 2017-08-20 18:37:53: run with --quiet --set rmic /usr/lib/jvm/java-8-oracle/bin/rmic
+update-alternatives 2017-08-20 18:37:53: status of link group /usr/bin/rmic set to manual
+update-alternatives 2017-08-20 18:37:53: run with --quiet --set schemagen /usr/lib/jvm/java-8-oracle/bin/schemagen
+update-alternatives 2017-08-20 18:37:53: status of link group /usr/bin/schemagen set to manual
+update-alternatives 2017-08-20 18:37:53: run with --quiet --set serialver /usr/lib/jvm/java-8-oracle/bin/serialver
+update-alternatives 2017-08-20 18:37:53: status of link group /usr/bin/serialver set to manual
+update-alternatives 2017-08-20 18:37:53: run with --quiet --set wsgen /usr/lib/jvm/java-8-oracle/bin/wsgen
+update-alternatives 2017-08-20 18:37:53: status of link group /usr/bin/wsgen set to manual
+update-alternatives 2017-08-20 18:37:53: run with --quiet --set wsimport /usr/lib/jvm/java-8-oracle/bin/wsimport
+update-alternatives 2017-08-20 18:37:53: status of link group /usr/bin/wsimport set to manual
+update-alternatives 2017-08-20 18:37:53: run with --quiet --set xjc /usr/lib/jvm/java-8-oracle/bin/xjc
+update-alternatives 2017-08-20 18:37:53: status of link group /usr/bin/xjc set to manual
+Двоичный файл (стандартный ввод) совпадает

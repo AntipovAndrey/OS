@@ -1,0 +1,2 @@
+#!/bin/bash
+ps u | tail -n+2 | awk '{ printf("%s:",$2); for(i=11;i<=NF;i++) {printf("%s ", $i)}; printf("\n") }' 

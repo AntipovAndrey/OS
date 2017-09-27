@@ -1,0 +1,244 @@
+[    32.886] Information: AIGLX: enabled GLX_ARB_create_context
+[    32.886] Information: AIGLX: enabled GLX_ARB_create_context_profile
+[    32.887] Information: AIGLX: enabled GLX_ARB_create_context_robustness
+[    32.887] Information: AIGLX: enabled GLX_ARB_fbconfig_float
+[    32.887] Information: AIGLX: enabled GLX_EXT_create_context_es{,2}_profile
+[    32.887] Information: AIGLX: enabled GLX_EXT_fbconfig_packed_float
+[    32.887] Information: AIGLX: enabled GLX_EXT_framebuffer_sRGB
+[    32.887] Information: AIGLX: enabled GLX_INTEL_swap_event
+[    32.886] Information: AIGLX: enabled GLX_MESA_copy_sub_buffer
+[    32.887] Information: AIGLX: enabled GLX_SGI_swap_control and GLX_MESA_swap_control
+[    32.887] Information: AIGLX: GLX_EXT_texture_from_pixmap backed by buffer objects
+[    32.887] Information: AIGLX: Loaded and initialized i965
+[    45.104] Information: AIGLX: Suspending AIGLX clients for VT switch
+[    32.725] Information:         Composite (RENDER acceleration)
+[    33.107] Information: config/udev: Adding input device AT Translated Set 2 keyboard (/dev/input/event3)
+[    33.103] Information: config/udev: Adding input device HDA Intel PCH HDMI/DP,pcm=3 (/dev/input/event10)
+[    33.103] Information: config/udev: Adding input device HDA Intel PCH Headphone (/dev/input/event9)
+[    33.104] Information: config/udev: Adding input device HDA Intel PCH Mic (/dev/input/event8)
+[    33.101] Information: config/udev: Adding input device Integrated Camera (/dev/input/event11)
+[    33.098] Information: config/udev: Adding input device Lid Switch (/dev/input/event0)
+[    33.031] Information: config/udev: Adding input device Power Button (/dev/input/event2)
+[    33.099] Information: config/udev: Adding input device Sleep Button (/dev/input/event1)
+[    33.115] Information: config/udev: Adding input device SynPS/2 Synaptics TouchPad (/dev/input/event6)
+[    33.145] Information: config/udev: Adding input device SynPS/2 Synaptics TouchPad (/dev/input/mouse0)
+[    33.147] Information: config/udev: Adding input device ThinkPad Extra Buttons (/dev/input/event7)
+[    33.096] Information: config/udev: Adding input device Video Bus (/dev/input/event4)
+[    33.091] Information: config/udev: Adding input device Video Bus (/dev/input/event5)
+[    32.725] Information:         Copy
+[    32.725] Information:         DownloadFromScreen
+[    32.552] Information: [drm] nouveau interface version: 1.3.1
+[    33.111] Information: evdev: AT Translated Set 2 keyboard: Configuring as keyboard
+[    33.102] Information: evdev: Integrated Camera: Configuring as keyboard
+[    33.072] Information: evdev: Power Button: Configuring as keyboard
+[    33.099] Information: evdev: Sleep Button: Configuring as keyboard
+[    33.147] Information: evdev: ThinkPad Extra Buttons: Configuring as keyboard
+[    33.095] Information: evdev: Video Bus: Configuring as keyboard
+[    33.097] Information: evdev: Video Bus: Configuring as keyboard
+[    32.725] Information: EXA(256): Driver allocated offscreen pixmaps
+[    32.725] Information: EXA(256): Driver registered support for the following operations:
+[    32.541] Information: Failed to load module "fbdev" (already loaded, 0)
+[    32.540] Information: Failed to load module "intel" (already loaded, 115)
+[    32.541] Information: Failed to load module "modesetting" (already loaded, 0)
+[    32.540] Information: Failed to load module "nouveau" (already loaded, 0)
+[    32.541] Information: Failed to load module "vesa" (already loaded, 0)
+[    32.542] Information: FBDEV: driver for framebuffer: fbdev
+[    32.887] Information: GLX: Initialized DRI2 GL provider for screen 0
+[    32.560] Information: intel(0): Creating default Display subsection in Screen section
+[    32.745] Information: intel(0): direct rendering: DRI2 enabled
+[    32.745] Information: intel(0): [DRI2]   DRI driver: i965
+[    32.745] Information: intel(0): [DRI2] Setup complete
+[    32.745] Information: intel(0): [DRI2]   VDPAU driver: va_gl
+[    34.576] Information: intel(0): EDID vendor "LGD", prod id 827
+[    32.576] Information: intel(0): Enabled output DP1
+[    32.576] Information: intel(0): Enabled output HDMI1
+[    32.576] Information: intel(0): Enabled output LVDS1
+[    32.576] Information: intel(0): Enabled output VGA1
+[    32.576] Information: intel(0): Enabled output VIRTUAL1
+[    32.745] Information: intel(0): hardware support for Present enabled
+[    32.744] Information: intel(0): HW Cursor enabled
+[    34.577] Information: intel(0): Modeline "1366x768"x0.0   70.00  1366 1402 1450 1492  768 771 776 782 -hsync -vsync (46.9 kHz eP)
+[    32.576] Information: intel(0): Output DP1 has no monitor section
+[    32.576] Information: intel(0): Output HDMI1 has no monitor section
+[    32.562] Information: intel(0): Output LVDS1 has no monitor section
+[    32.576] Information: intel(0): Output VGA1 has no monitor section
+[    32.576] Information: intel(0): Output VIRTUAL1 has no monitor section
+[    34.576] Information: intel(0): Printing DDC gathered Modelines:
+[    32.744] Information: intel(0): RandR 1.2 enabled, ignore the following RandR disabled message.
+[    32.891] Information: intel(0): Setting screen physical size to 361 x 203
+[    32.550] Information: intel(0): SNA compiled for use with valgrind
+[    32.550] Information: intel(0): SNA compiled: xserver-xorg-video-intel 2:2.99.917+git20160325-1ubuntu1.2 (Timo Aaltonen <tjaalton@debian.org>)
+[    32.744] Information: intel(0): SNA initialized with Ivybridge (gen7, gt1) backend
+[    32.891] Information: intel(0): switch to mode 1366x768@60.0 on LVDS1 using pipe 0, position (0, 0), rotation normal, reflection none
+[    32.550] Information: intel(0): Using Kernel Mode Setting driver: i915, version 1.6.0 20151010
+[    32.541] Information: intel: Driver for Intel(R) HD Graphics: 2000-6000
+[    32.541] Information: intel: Driver for Intel(R) Integrated Graphics Chipsets:
+[    32.541] Information: intel: Driver for Intel(R) Iris(TM) Graphics: 5100, 6100
+[    32.541] Information: intel: Driver for Intel(R) Iris(TM) Pro Graphics: 5200, 6200, P6300
+[    32.353] Information: Loader magic: 0x7341624dc0
+[    32.576] Information: Loading sub module "dri2"
+[    32.576] Information: Loading sub module "dri2"
+[    32.724] Information: Loading sub module "exa"
+[    32.577] Information: Loading sub module "fb"
+[    32.552] Information: Loading sub module "fbdevhw"
+[    32.576] Information: Loading sub module "present"
+[    32.583] Information: Loading sub module "shadowfb"
+[    32.539] Information: Loading /usr/lib/xorg/modules/drivers/fbdev_drv.so
+[    32.541] Information: Loading /usr/lib/xorg/modules/drivers/fbdev_drv.so
+[    32.486] Information: Loading /usr/lib/xorg/modules/drivers/intel_drv.so
+[    32.540] Information: Loading /usr/lib/xorg/modules/drivers/intel_drv.so
+[    32.539] Information: Loading /usr/lib/xorg/modules/drivers/modesetting_drv.so
+[    32.540] Information: Loading /usr/lib/xorg/modules/drivers/modesetting_drv.so
+[    32.514] Information: Loading /usr/lib/xorg/modules/drivers/nouveau_drv.so
+[    32.540] Information: Loading /usr/lib/xorg/modules/drivers/nouveau_drv.so
+[    32.539] Information: Loading /usr/lib/xorg/modules/drivers/vesa_drv.so
+[    32.541] Information: Loading /usr/lib/xorg/modules/drivers/vesa_drv.so
+[    32.384] Information: Loading /usr/lib/xorg/modules/extensions/libglx.so
+[    33.031] Information: Loading /usr/lib/xorg/modules/input/evdev_drv.so
+[    33.116] Information: Loading /usr/lib/xorg/modules/input/synaptics_drv.so
+[    32.725] Information: Loading /usr/lib/xorg/modules/libexa.so
+[    32.553] Information: Loading /usr/lib/xorg/modules/libfbdevhw.so
+[    32.577] Information: Loading /usr/lib/xorg/modules/libfb.so
+[    32.583] Information: Loading /usr/lib/xorg/modules/libshadowfb.so
+[    32.576] Information: LoadModule: "dri2"
+[    32.576] Information: LoadModule: "dri2"
+[    33.031] Information: LoadModule: "evdev"
+[    32.724] Information: LoadModule: "exa"
+[    32.577] Information: LoadModule: "fb"
+[    32.539] Information: LoadModule: "fbdev"
+[    32.541] Information: LoadModule: "fbdev"
+[    32.552] Information: LoadModule: "fbdevhw"
+[    32.359] Information: LoadModule: "glx"
+[    32.486] Information: LoadModule: "intel"
+[    32.540] Information: LoadModule: "intel"
+[    32.539] Information: LoadModule: "modesetting"
+[    32.540] Information: LoadModule: "modesetting"
+[    32.514] Information: LoadModule: "nouveau"
+[    32.540] Information: LoadModule: "nouveau"
+[    32.514] Information: LoadModule: "nvidia"
+[    32.540] Information: LoadModule: "nvidia"
+[    32.576] Information: LoadModule: "present"
+[    32.583] Information: LoadModule: "shadowfb"
+[    33.116] Information: LoadModule: "synaptics"
+[    32.539] Information: LoadModule: "vesa"
+[    32.541] Information: LoadModule: "vesa"
+[    32.542] Information: modesetting: Driver for Modesetting Kernel Drivers: kms
+[    32.353] Information: Module ABI versions:
+[    32.576] Information: Module "dri2" already built-in
+[    32.576] Information: Module "dri2" already built-in
+[    33.071] Information: Module evdev: vendor="X.Org Foundation"
+[    32.725] Information: Module exa: vendor="X.Org Foundation"
+[    32.553] Information: Module fbdevhw: vendor="X.Org Foundation"
+[    32.539] Information: Module fbdev: vendor="X.Org Foundation"
+[    32.541] Information: Module fbdev: vendor="X.Org Foundation"
+[    32.583] Information: Module fb: vendor="X.Org Foundation"
+[    32.486] Information: Module glx: vendor="X.Org Foundation"
+[    32.514] Information: Module intel: vendor="X.Org Foundation"
+[    32.540] Information: Module intel: vendor="X.Org Foundation"
+[    32.539] Information: Module modesetting: vendor="X.Org Foundation"
+[    32.540] Information: Module modesetting: vendor="X.Org Foundation"
+[    32.539] Information: Module nouveau: vendor="X.Org Foundation"
+[    32.540] Information: Module nouveau: vendor="X.Org Foundation"
+[    32.576] Information: Module "present" already built-in
+[    32.583] Information: Module shadowfb: vendor="X.Org Foundation"
+[    33.116] Information: Module synaptics: vendor="X.Org Foundation"
+[    32.540] Information: Module vesa: vendor="X.Org Foundation"
+[    32.541] Information: Module vesa: vendor="X.Org Foundation"
+[    33.098] Information: No input driver specified, ignoring this device.
+[    33.103] Information: No input driver specified, ignoring this device.
+[    33.103] Information: No input driver specified, ignoring this device.
+[    33.104] Information: No input driver specified, ignoring this device.
+[    32.541] Information: NOUVEAU driver Date:   Tue Dec 8 15:52:25 2015 +1000
+[    32.541] Information: NOUVEAU driver for NVIDIA chipset families :
+[    32.683] Information: NOUVEAU(G0): Channel setup complete.
+[    32.706] Information: NOUVEAU(G0): [COPY] async initialised.
+[    32.724] Information: NOUVEAU(G0): [DRI2]   DRI driver: nouveau
+[    32.724] Information: NOUVEAU(G0): [DRI2] Setup complete
+[    32.724] Information: NOUVEAU(G0): [DRI2]   VDPAU driver: nouveau
+[    32.724] Information: NOUVEAU(G0): Hardware support for Present enabled
+[    32.577] Information: NOUVEAU(G0): Modeline "1366x768"x59.8   84.75  1360 1432 1568 1776  768 771 781 798 -hsync +vsync (47.7 kHz)
+[    32.888] Information: NOUVEAU(G0): NVEnterVT is called.
+[    45.130] Information: NOUVEAU(G0): NVLeaveVT is called.
+[    32.725] Information: NOUVEAU(G0): RandR 1.2 enabled, ignore the following RandR disabled message.
+[    32.725] Information: NOUVEAU(G0): [XvMC] Associated with Nouveau GeForce 8/9 Textured Video.
+[    32.750] Information: SELinux: Disabled on system
+[    32.725] Information:         Solid
+[    33.144] Information: synaptics: SynPS/2 Synaptics TouchPad: ignoring touch events for semi-multitouch device
+[    32.358] Information: systemd-logind: got fd for /dev/dri/card0 226:0 fd 10 paused 0
+[    32.357] Information: systemd-logind: got fd for /dev/dri/card1 226:1 fd 9 paused 0
+[    33.102] Information: systemd-logind: got fd for /dev/input/event11 13:75 fd 22 paused 0
+[    33.099] Information: systemd-logind: got fd for /dev/input/event1 13:65 fd 21 paused 0
+[    33.072] Information: systemd-logind: got fd for /dev/input/event2 13:66 fd 18 paused 0
+[    33.111] Information: systemd-logind: got fd for /dev/input/event3 13:67 fd 23 paused 0
+[    33.097] Information: systemd-logind: got fd for /dev/input/event4 13:68 fd 20 paused 0
+[    33.095] Information: systemd-logind: got fd for /dev/input/event5 13:69 fd 19 paused 0
+[    33.116] Information: systemd-logind: got fd for /dev/input/event6 13:70 fd 24 paused 0
+[    33.147] Information: systemd-logind: got fd for /dev/input/event7 13:71 fd 25 paused 0
+[    45.132] Information: systemd-logind: got pause for 13:65
+[    45.132] Information: systemd-logind: got pause for 13:66
+[    45.132] Information: systemd-logind: got pause for 13:67
+[    45.132] Information: systemd-logind: got pause for 13:68
+[    45.132] Information: systemd-logind: got pause for 13:69
+[    45.132] Information: systemd-logind: got pause for 13:70
+[    45.132] Information: systemd-logind: got pause for 13:71
+[    45.132] Information: systemd-logind: got pause for 13:75
+[    45.132] Information: systemd-logind: got pause for 226:0
+[    45.390] Information: systemd-logind: got pause for 226:1
+[    32.356] Information: systemd-logind: took control of session /org/freedesktop/login1/session/c1
+[    32.352] Information: The server relies on udev to provide the list of input devices.
+[    33.098] Information: This device may have been added with another device file.
+[    33.103] Information: This device may have been added with another device file.
+[    33.103] Information: This device may have been added with another device file.
+[    33.104] Information: This device may have been added with another device file.
+[    32.541] Information: Unloading fbdev
+[    32.583] Information: Unloading fbdev
+[    32.583] Information: Unloading fbdevhw
+[    32.540] Information: Unloading intel
+[    32.541] Information: Unloading modesetting
+[    32.583] Information: Unloading modesetting
+[    32.540] Information: Unloading nouveau
+[    32.514] Information: Unloading nvidia
+[    32.540] Information: Unloading nvidia
+[    32.541] Information: Unloading vesa
+[    32.583] Information: Unloading vesa
+[    32.541] Information: UnloadModule: "fbdev"
+[    32.583] Information: UnloadModule: "fbdev"
+[    32.540] Information: UnloadModule: "intel"
+[    32.541] Information: UnloadModule: "modesetting"
+[    32.583] Information: UnloadModule: "modesetting"
+[    32.540] Information: UnloadModule: "nouveau"
+[    32.514] Information: UnloadModule: "nvidia"
+[    32.540] Information: UnloadModule: "nvidia"
+[    32.541] Information: UnloadModule: "vesa"
+[    32.583] Information: UnloadModule: "vesa"
+[    32.583] Information: UnloadSubModule: "fbdevhw"
+[    32.725] Information:         UploadToScreen
+[    33.111] Information: Using input driver 'evdev' for 'AT Translated Set 2 keyboard'
+[    33.102] Information: Using input driver 'evdev' for 'Integrated Camera'
+[    33.072] Information: Using input driver 'evdev' for 'Power Button'
+[    33.099] Information: Using input driver 'evdev' for 'Sleep Button'
+[    33.147] Information: Using input driver 'evdev' for 'ThinkPad Extra Buttons'
+[    33.095] Information: Using input driver 'evdev' for 'Video Bus'
+[    33.097] Information: Using input driver 'evdev' for 'Video Bus'
+[    33.116] Information: Using input driver 'synaptics' for 'SynPS/2 Synaptics TouchPad'
+[    32.542] Information: VESA: driver for VESA chipsets: vesa
+[    32.357] Information: xfree86: Adding drm device (/dev/dri/card0)
+[    32.357] Information: xfree86: Adding drm device (/dev/dri/card1)
+[    33.111] Information: XINPUT: Adding extended input device "AT Translated Set 2 keyboard" (type: KEYBOARD, id 11)
+[    33.102] Information: XINPUT: Adding extended input device "Integrated Camera" (type: KEYBOARD, id 10)
+[    33.072] Information: XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 6)
+[    33.100] Information: XINPUT: Adding extended input device "Sleep Button" (type: KEYBOARD, id 9)
+[    33.144] Information: XINPUT: Adding extended input device "SynPS/2 Synaptics TouchPad" (type: TOUCHPAD, id 12)
+[    33.147] Information: XINPUT: Adding extended input device "ThinkPad Extra Buttons" (type: KEYBOARD, id 13)
+[    33.095] Information: XINPUT: Adding extended input device "Video Bus" (type: KEYBOARD, id 7)
+[    33.097] Information: XINPUT: Adding extended input device "Video Bus" (type: KEYBOARD, id 8)
+[    32.552] Warning: Falling back to old probe method for fbdev
+[    32.552] Warning: Falling back to old probe method for modesetting
+[    32.553] Warning: Falling back to old probe method for vesa
+[    32.352] Warning: The directory "/usr/share/fonts/X11/100dpi/" does not exist.
+[    32.352] Warning: The directory "/usr/share/fonts/X11/100dpi" does not exist.
+[    32.352] Warning: The directory "/usr/share/fonts/X11/75dpi/" does not exist.
+[    32.352] Warning: The directory "/usr/share/fonts/X11/75dpi" does not exist.
+[    32.352] Warning: The directory "/usr/share/fonts/X11/cyrillic" does not exist.
+[    32.514] Warning: Warning, couldn't open module nvidia
+[    32.540] Warning: Warning, couldn't open module nvidia

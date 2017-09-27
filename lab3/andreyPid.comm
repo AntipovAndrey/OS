@@ -1,0 +1,61 @@
+ 1547:/lib/systemd/systemd --user
+ 1548:(sd-pam)
+ 1554:/usr/bin/gnome-keyring-daemon --daemonize --login
+ 1557:/usr/lib/gdm3/gdm-x-session --run-script default
+ 1569:dbus-daemon --print-address 4 --session
+ 1572:/usr/lib/gnome-session/gnome-session-binary
+ 1634:/usr/bin/ssh-agent /usr/bin/im-launch x-session-manager
+ 1647:/usr/lib/at-spi2-core/at-spi-bus-launcher
+ 1652:/usr/bin/dbus-daemon --config-file=/etc/at-spi2/accessibility.conf --nofork --print-address 3
+ 1655:/usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
+ 1668:/usr/lib/gvfs/gvfsd
+ 1673:/usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+ 1696:/usr/lib/gnome-settings-daemon/gnome-settings-daemon
+ 1706:/usr/bin/pulseaudio --start --log-target=syslog
+ 1724:/usr/bin/gnome-shell
+ 1731:syndaemon -i 1.0 -t -K -R
+ 1733:/usr/lib/gnome-settings-daemon/gsd-printer
+ 1746:/usr/lib/gnome-shell/gnome-shell-calendar-server
+ 1747:ibus-daemon --xim --panel disable
+ 1753:/usr/lib/ibus/ibus-dconf
+ 1757:/usr/lib/ibus/ibus-x11 --kill-daemon
+ 1766:/usr/lib/evolution/evolution-source-registry
+ 1773:/usr/lib/dconf/dconf-service
+ 1780:/usr/lib/telepathy/mission-control-5
+ 1782:/usr/lib/gvfs/gvfs-udisks2-volume-monitor
+ 1787:/usr/lib/gnome-online-accounts/goa-daemon
+ 1801:/usr/lib/gvfs/gvfs-mtp-volume-monitor
+ 1806:/usr/lib/gvfs/gvfs-goa-volume-monitor
+ 1812:/usr/lib/gvfs/gvfsd-metadata
+ 1824:/usr/lib/gnome-online-accounts/goa-identity-service
+ 1830:/usr/lib/gvfs/gvfs-afc-volume-monitor
+ 1837:/usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+ 1848:nautilus -n
+ 1851:/usr/lib/tracker/tracker-store
+ 1852:/usr/lib/evolution/evolution-alarm-notify
+ 1853:/usr/bin/gnome-software --gapplication-service
+ 1854:/usr/lib/tracker/tracker-miner-apps
+ 1856:/usr/lib/tracker/tracker-miner-fs
+ 1857:/usr/lib/tracker/tracker-miner-user-guides
+ 1858:/usr/lib/tracker/tracker-extract
+ 1904:/usr/lib/evolution/evolution-calendar-factory
+ 1912:/usr/lib/evolution/evolution-calendar-factory-subprocess --factory contacts --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.Calendarx1904x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/Calendar/1904/2
+ 1922:/usr/lib/evolution/evolution-addressbook-factory
+ 1924:/usr/lib/evolution/evolution-calendar-factory-subprocess --factory local --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.Calendarx1904x3 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/Calendar/1904/3
+ 1938:/usr/lib/gvfs/gvfsd-trash --spawner :1.12 /org/gtk/gvfs/exec_spaw/0
+ 1943:/usr/lib/ibus/ibus-engine-simple
+ 1964:/usr/lib/evolution/evolution-addressbook-factory-subprocess --factory local --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.AddressBookx1922x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/AddressBook/1922/2
+ 1996:/usr/lib/gvfs/gvfsd-burn --spawner :1.12 /org/gtk/gvfs/exec_spaw/1
+ 2032:update-notifier
+ 2110:/usr/lib/gvfs/gvfsd-network --spawner :1.12 /org/gtk/gvfs/exec_spaw/4
+ 2136:/usr/lib/gvfs/gvfsd-dnssd --spawner :1.12 /org/gtk/gvfs/exec_spaw/6
+ 2142:/usr/lib/x86_64-linux-gnu/deja-dup/deja-dup-monitor
+ 2219:/usr/lib/x86_64-linux-gnu/gconf/gconfd-2
+ 3084:/usr/lib/gvfs/gvfsd-google --spawner :1.12 /org/gtk/gvfs/exec_spaw/7
+ 3110:/bin/sh -c /usr/lib/x86_64-linux-gnu/zeitgeist/zeitgeist-maybe-vacuum; /usr/bin/zeitgeist-daemon
+ 3114:/usr/bin/zeitgeist-daemon
+ 3121:/usr/lib/x86_64-linux-gnu/zeitgeist-fts
+22295:/usr/lib/gnome-terminal/gnome-terminal-server
+22299:zsh
+22435:/bin/bash ./1.sh
+22436:ps -u andrey -o %p:%a h
