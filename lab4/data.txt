@@ -1,0 +1,84 @@
+4
+QUIT
+s
+4
+1.sh 2.sh 3.sh 4.sh consumer.sh data.txt producer.sh script.sh
+5
++
+9
++
+8
++
+7
+7
+5
++
+8
+/
+dd
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+qqqq
+1
+1
+1
+2
+q
+r
++
++
+8
++
+1.sh 2.sh 3.sh 4.sh consumer.sh data.txt producer.sh script.sh
+1.sh 2.sh 3.sh 4.sh consumer.sh data.txt producer.sh script.sh
++
+7
+8
+7
+8
+9
+9
+1.sh 2.sh 3.sh 4.sh consumer.sh data.txt producer.sh script.sh
+8
+8
+8
+7
+9
+8
+1.sh 2.sh 3.sh 4.sh consumer.sh data.txt producer.sh script.sh
+1.sh 2.sh 3.sh 4.sh consumer.sh data.txt producer.sh script.sh
+7
+4
++
+k
+8
+1.sh 2.sh 3.sh 4.sh consumer.sh data.txt producer.sh script.sh
+/bin /boot /cdrom /dev /etc /home /initrd.img /initrd.img.old /lib /lib64 /lost+found /media /mnt /opt /proc /root /run /sbin /snap /srv /sys /tmp /usr /var /vmlinuz /vmlinuz.old
+7
+QUIT
+5
+*
+2
+QUIT
+11
+1
+14
+15
+l
+55
+7
+7
+*
+2
+2
+2
+QUIT
