@@ -8,7 +8,6 @@ lastBackupInSec="$(date -d "$(echo "$lastBackup" | grep -oP '[0-9]{4}\-[0-9]{2}\
 
 let difference=($currentDateSec-$lastBackupInSec)/60/60/24
 
-echo "$difference"
 isCreated=false
 if [[ "${#lastBackup}" -lt 8 || "$difference" -gt 7 ]]
 then
@@ -22,8 +21,6 @@ else
     currentBackup="$lastBackup"
 fi
 
-echo "$currentBackup"
-
 if $isCreated
 then
     cd "$HOME/source"
@@ -34,7 +31,6 @@ then
              continue
         fi
         cp --parent $FILE "$HOME/$currentBackup" > /dev/null 2> /dev/null && echo "+ $FILE" >> "$HOME/backup-report" || echo "! $FILE" >> "$HOME/backup-report"
-        echo "$FILE"
     done <<< "$(find -L)"
 else
     cd "$HOME/source"
@@ -54,27 +50,5 @@ else
                 cp --parent $FILE "$HOME/$currentBackup" > /dev/null 2> /dev/null && echo "* $FILE | $FILE.$currentDate" >> "$HOME/backup-report" || echo "! $FILE" >> "$HOME/backup-report"
             fi
         fi
-
     done <<< "$(find -L)"
 fi
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
