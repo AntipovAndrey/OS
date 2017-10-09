@@ -1,5 +1,19 @@
 #!/bin/bash
 
+if [[ $# -eq 0 ]] ; then
+	echo "Too few parameters"
+	exit 1
+fi
+
+if [[ ! -f "$1" ]] ; then
+	echo "File doesn't exist"
+	exit 1
+fi
+
+fileToDel="$1"
+
+echo "$fileToDel"
+
 trashPath=${HOME}"/.trash"
 logPath=${HOME}"/.trash.log"
 fileId=${trashPath}"/.id"
@@ -12,7 +26,7 @@ let newId="$(cat "$fileId")"+1
 
 echo "$newId" > "$fileId"
 
-ln "$1" ${trashPath}"/"${newId}
+ln -- "./$fileToDel" ${trashPath}"/"${newId}
 
 echo "${PWD}/${1}:$newId" >> "$logPath"
-rm "$1"
+rm -- "./$fileToDel"

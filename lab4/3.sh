@@ -1,4 +1,4 @@
 #!/bin/bash
 
-echo "*/5 * * * 2 1.sh" | crontab
+echo "*/5 * * * 2 $PWD/1.sh" | crontab
 

@@ -5,6 +5,9 @@ while true; do
         +)
             kill -USR1 $(cat .pid)
             ;;
+	-)
+            kill -SIGRTMIN $(cat .pid)
+            ;;	
         [*])
             kill -USR2 $(cat .pid)
             ;;

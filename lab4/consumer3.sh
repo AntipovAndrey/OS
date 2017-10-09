@@ -23,9 +23,16 @@ usr2()
         echo "Result is $result"
     }
 
+usr3()
+    {
+       let result=$result-2
+       echo "Result is $result"
+    }
+
 trap 'onKill' SIGTERM
 trap 'usr1' USR1
 trap 'usr2' USR2
+trap 'usr3' SIGRTMIN
 
 while true ; do
     sleep 1

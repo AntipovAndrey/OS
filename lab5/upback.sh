@@ -8,6 +8,10 @@ then
     exit 1
 fi
 
+if [[ ! -d "$HOME/restore" ]] ; then
+	mkdir "$HOME/restore"
+fi
+
 cd "$HOME/$lastBackup"
 while read -r FILE 
 do
@@ -16,5 +20,5 @@ do
          continue
     fi
     echo "$FILE"
-    cp --parent $FILE "$HOME/restore" > /dev/null 2> /dev/null
+    cp --parent -- "$FILE" "$HOME/restore" > /dev/null 2> /dev/null
 done <<< "$(find -L)"

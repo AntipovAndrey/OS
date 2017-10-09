@@ -1,5 +1,10 @@
 #!/bin/bash
 
+if [[ ! -d "$HOME/source" ]] ; then
+	echo "No source directory"
+	exit 1
+fi
+
 currentDate="$(date +"%F")"
 currentDateSec="$(date +"%s")"
 
@@ -30,7 +35,7 @@ then
         if [[ ${#FILE} -eq 0 || -d $FILE ]] ; then 
              continue
         fi
-        cp --parent $FILE "$HOME/$currentBackup" > /dev/null 2> /dev/null && echo "+ $FILE" >> "$HOME/backup-report" || echo "! $FILE" >> "$HOME/backup-report"
+        cp --parent -- "$FILE" "$HOME/$currentBackup" > /dev/null 2> /dev/null && echo "+ $FILE" >> "$HOME/backup-report" || echo "! $FILE" >> "$HOME/backup-report"
     done <<< "$(find -L)"
 else
     cd "$HOME/source"
@@ -42,12 +47,12 @@ else
         fi
         if [[ ! -f "$HOME/$currentBackup/$FILE" ]]
         then
-        cp --parent $FILE "$HOME/$currentBackup" > /dev/null 2> /dev/null && echo "+ $FILE" >> "$HOME/backup-report" || echo "! $FILE" >> "$HOME/backup-report"
+        cp --parent -- "$FILE" "$HOME/$currentBackup" > /dev/null 2> /dev/null && echo "+ $FILE" >> "$HOME/backup-report" || echo "! $FILE" >> "$HOME/backup-report"
         else
-            if [[ "$(wc -c "$FILE" | awk '{print $1}')" -ne "$(wc -c "$HOME/$currentBackup/$FILE" | awk '{print $1}')" ]]
+            if [[ "$(wc -c -- "$FILE" | awk '{print $1}')" -ne "$(wc -c -- "$HOME/$currentBackup/$FILE" | awk '{print $1}')" ]]
             then
-                mv "$HOME/$currentBackup/$FILE" "$HOME/$currentBackup/$FILE.$currentDate"
-                cp --parent $FILE "$HOME/$currentBackup" > /dev/null 2> /dev/null && echo "* $FILE | $FILE.$currentDate" >> "$HOME/backup-report" || echo "! $FILE" >> "$HOME/backup-report"
+                mv -- "$HOME/$currentBackup/$FILE" "$HOME/$currentBackup/$FILE.$currentDate"
+                cp --parent -- "$FILE" "$HOME/$currentBackup" > /dev/null 2> /dev/null && echo "* $FILE | $FILE.$currentDate" >> "$HOME/backup-report" || echo "! $FILE" >> "$HOME/backup-report"
             fi
         fi
     done <<< "$(find -L)"
