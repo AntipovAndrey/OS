@@ -22,19 +22,23 @@ then
     echo "Backup directory $HOME/$currentBackup was created" >> "$HOME/backup-report"
     
 else
-    echo "Backup directory $HOME/$currentBackup was updated at $currentDate" >> "$HOME/backup-report"
     currentBackup="$lastBackup"
+    echo "Backup directory $HOME/$currentBackup was updated at $currentDate" >> "$HOME/backup-report" 
 fi
 
 if $isCreated
 then
     cd "$HOME/source"
-    while read -r FILE 
-    do
+    while read -r -- FILE 
+    do	
+	
         FILE="$(echo "$FILE" | grep -oP '[^\.\/].*')"
-        if [[ ${#FILE} -eq 0 || -d $FILE ]] ; then 
+        if [[ ${#FILE} -eq 0 ]] ; then 
              continue
         fi
+	if [[ -d $FILE ]] ; then
+	     mkdir -- "$HOME/$currentBackup/$FILE" > /dev/null 2> /dev/null
+	fi 
         cp --parent -- "$FILE" "$HOME/$currentBackup" > /dev/null 2> /dev/null && echo "+ $FILE" >> "$HOME/backup-report" || echo "! $FILE" >> "$HOME/backup-report"
     done <<< "$(find -L)"
 else
@@ -42,9 +46,12 @@ else
     while read -r FILE 
     do
         FILE="$(echo "$FILE" | grep -oP '[^\.\/].*')"
-        if [[ ${#FILE} -eq 0 || -d $FILE ]] ; then 
+        if [[ ${#FILE} -eq 0 ]] ; then 
              continue
         fi
+	if [[ -d $FILE ]] ; then
+	     mkdir -- "$HOME/$currentBackup/$FILE" > /dev/null 2> /dev/null
+	fi 
         if [[ ! -f "$HOME/$currentBackup/$FILE" ]]
         then
         cp --parent -- "$FILE" "$HOME/$currentBackup" > /dev/null 2> /dev/null && echo "+ $FILE" >> "$HOME/backup-report" || echo "! $FILE" >> "$HOME/backup-report"
@@ -57,3 +64,15 @@ else
         fi
     done <<< "$(find -L)"
 fi
+
+
+
+
+
+
+
+
+
+
+
+
